@@ -1,0 +1,7 @@
+nome = str(input('Qual o seu nome?'))
+b = (len(nome)) - (nome.count(' '))
+l = nome.split()
+print('Seu nome em maiúsco é:', (nome.upper()))
+print('Seu nome apenas com letras minúsculas é: ', (nome.lower()))
+print(f'Esse nome tem {b} letras.')
+print(f'Seu primero nome ({l[0]}) tem { len(l[0]) } letras.')

@@ -1,0 +1,5 @@
+l = float(input('Digite a largura:'))
+a = float(input('Digite a altura:'))
+ar = (a*l)
+tin = (ar/2)
+print (f'Essa parede tem {ar} metros e necessitará de {tin} litros de tinta.')
