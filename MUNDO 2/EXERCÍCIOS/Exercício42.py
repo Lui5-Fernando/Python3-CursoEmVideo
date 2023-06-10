@@ -10,4 +10,3 @@ else:
         print('Esse é triângulo ISÓSCELES')
     else:
         print('Esse é um triâgulo ESCALENO')
-    

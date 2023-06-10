@@ -1,3 +1,4 @@
+import time
 import random
 print('-=-' * 7)
 print('Escolha uma da opções:')
@@ -8,6 +9,13 @@ print('|[2]Papel  |')
 print('|[3]Tesolra|')
 print('-=-' * 4)
 op = int(input('Digite a opção da jogada:'))
+time.sleep(0.5)
+print('PEDRA')
+time.sleep(0.5)
+print('PAPEL')
+time.sleep(0.5)
+print('TESOLRA!!!')
+print('-=-' * 5)
 pc = random.randint(1,3)
 if op == pc:
     print('Empate')
