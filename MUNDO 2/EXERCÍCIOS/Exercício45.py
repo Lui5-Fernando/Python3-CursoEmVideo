@@ -33,3 +33,4 @@ elif op == 3 and pc == 2:
     print('Você: Tesolra \nPC: Papel \n\033[32mVocê Ganhou!\033[m')
 else:
     print('Algo deu errado!!!')
+ 
