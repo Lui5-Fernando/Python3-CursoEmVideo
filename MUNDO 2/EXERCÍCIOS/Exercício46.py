@@ -1,8 +1,8 @@
 import time
 print('Comtagem regressiva para a queima de fogos:')
-for c in range(11,0,-1):
-    time.sleep(0.5)
-    print(c-1)
+for c in range(10,-1,-1):
+    time.sleep(1)
+    print(c)
 print('''\033[31mBOM!!
 \033[32mBOM!!
 \033[33mBOM!!
