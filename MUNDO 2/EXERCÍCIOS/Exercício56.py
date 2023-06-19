@@ -1,16 +1,14 @@
-nn = []
-ii = []
-ss = []
 for nu in range(1,5):
-    n = str(input(f'Qual o nome da {nu}° pessoa:'))
-    nn.append(n)
-    print(nn)
-    i = int(input(f'Qual a idade da {nu}° pessoa:'))
-    ii.append(i)
-    print(ii)
     s = str(input(f'Qual o sexo da {nu}° pessoa (M/F):')).lower()
-    if s == 'm' or 'f':
-        ss.append(s)
-        print(ss)
+    if s == 'm':
+        n = str(input('Qual o nome desse homem: '))
+        ih = int(input('Quantos anos ele tem: '))
+        ih += ih
+    elif s == 'f':
+        n = str(input('Qual o nome dessa mulher: '))
+        im = int(input('Quantos anos ela tem: '))
+        im += im
     else:
-        print('Digite uma opção válida:')
+        print('Digite uma opção válida.')
+i = ih + im
+print(f'A idade média é de:{i/4}')
