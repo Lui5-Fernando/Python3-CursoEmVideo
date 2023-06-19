@@ -7,5 +7,5 @@ for a in range(1,6):
         b = p
     elif p < c:
         c = p
-print('O maior foi: {b:.1f}')
-print('O menor foi: {c:.1f}')
+print(f'O maior foi: {b:.1f}')
+print(f'O menor foi: {c:.1f}')

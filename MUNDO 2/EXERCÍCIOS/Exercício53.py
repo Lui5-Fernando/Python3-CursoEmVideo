@@ -1,4 +1,4 @@
-a = str(input('Digite a frase e verifique se ela é um políndromo:')) 
+a = str(input('Digite a frase e verifique se ela é um políndromo:')).lower()
 b = ''.join(a[::-1].split())
 c = ''.join(a.split())
 if b == c:
